@@ -3,7 +3,7 @@
 ##############
 
 library(Rfit)
-college.data <- read.csv("C:/Users/mathstat/Downloads/Colleges.csv")
+college.data <- read.csv("Colleges.csv")
 
 ##  1  ##
 
