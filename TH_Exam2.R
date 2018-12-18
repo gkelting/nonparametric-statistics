@@ -9,12 +9,7 @@
 set.seed(3969)
 library(exactRankTests)
 
-##  Personal Laptop
-#"C:/Users/grace/OneDrive/Classes/NonParametric/Exams/Exam 2/NLBB 2005.csv"
-##  Home Computer
-#"C:/Users/Sharon/Desktop/Grace's Stuff/NonParametric/NLBB 2005.csv"
-
-baseball.data <- read.csv("C:/Users/grace/OneDrive/Classes/NonParametric/Exams/Exam 2/NLBB 2005.csv", header = TRUE, sep = ',', na.strings = "")
+baseball.data <- read.csv("NLBB 2005.csv", header = TRUE, sep = ',', na.strings = "")
 
 #################
 ##  PROBLEM 1  ##
