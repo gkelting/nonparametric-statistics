@@ -4,7 +4,7 @@
 
 library(Rfit)
 
-baseball.data <- read.csv("C:/Users/grace/OneDrive/Classes/NonParametric/Exams/Exam 2/NLBB 2005.csv", header = TRUE, sep = ',', na.strings = "")
+baseball.data <- read.csv("NLBB 2005.csv", header = TRUE, sep = ',', na.strings = "")
 
 ##  1  ##
 plot(x = baseball.data$AVG, y = baseball.data$Salary, main = "Salary vs. Batting Average", xlab = "Batting Average", ylab = "Salary")
